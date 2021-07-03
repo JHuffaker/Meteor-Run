@@ -4,6 +4,8 @@ This program is a game created with Python Arcade that utilizes networking to al
 
 The program has a server file that opens a connection for the client to connect to. It only allows to clients to connect. The client file renders the game for the user and sends the player's coordinates through the network file to the server, and receives the coordinates of the other play as well so that the game can render the correct coordinates of that opposite player.
 
+To run the server, the user will only need to run server.py. To run the client, the user will only need to run client.py, but will also need to have network.py and the images in the same folder.
+
 [Game Demo](https://youtu.be/p3PlJz2Zy8g)
 
 # Network Communication
