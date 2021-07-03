@@ -24,7 +24,6 @@ def make_pos(tup):
 pos = [(100, 37.5), (300, 37.5)]
 
 def threaded_client(conn, player):
-    print("Each time")
     conn.send(str.encode(make_pos(pos[player])))
     reply = ""
     while True:
